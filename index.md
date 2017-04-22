@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-
+<div>
 <!--include map
 -->
    <!-- <div id="map" style="height: 600px;width:800px;"></div>
@@ -159,4 +159,4 @@ var markerCluster = new MarkerClusterer(map, markers, mcOptions, {imagePath: 'ht
 &callback=initMap">
   </script>
   
- 
+ </div>
