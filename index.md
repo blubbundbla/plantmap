@@ -7,11 +7,8 @@ layout: home
 <div>
 <!--include map
 -->
-   <!-- <div id="map" style="height: 600px;width:800px;"></div>
-   --> 
-    <div id="map" style="width:90%; height:500px !important"></div>
-    <!--<div id="map" style="height: 600 px;width:90%;"></div>
-   --> 
+    <div id="map" style="width:95%; height:500px !important"></div>
+   
     <script type="text/javascript">
 
 var map;
