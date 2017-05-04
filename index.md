@@ -4,6 +4,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+On the map you can find the plants I discovered during my cycling trip. By clicking on the image a small window with additional information will open.
+
 <div>
 <!--include map
 -->
@@ -35,31 +38,17 @@ var markers = [];
 var infowindow = null
      infowindow = new google.maps.InfoWindow({
 
-       //content: info
-           }); 
+          }); 
            
           
 for (var i = 0; i < location.length; i++) {
     //var infocontent='The address name'+location[i][0];
       
-    var plantinfo='<p>'
-   // var imagealign = <IMG BORDER="0" ALIGN="Left" SRC=location[i][0]>
-   // for (var p = 0; p < location[i][4].length; p++) {
-    taglist=location[i][4]
-   if (taglist[0]==="no info yet"){
-        	plantinfo=taglist
-        	}
-        	 else if ( taglist.length===2){
-        	plantinfo= "<p> Gattung: " + taglist[1] +"</p>"+ " Art: " + taglist[0] }
-        	
-        	else if ( taglist.length===1){
-        	plantinfo= "<p>" + taglist[0] +"</p>" 
-        	}
+    var plantinfo= location[i][4]
         	
         	var picdate='<p>'+ "date of picture: " +location[i][5] 	+'<br />'
         	var picid=  "picture ID: " + location[i][0] 	+'</p>'
         	var picinfo = '<h3>Image information</h3>'+ picdate+picid
-        	
         	
         	plantinfo='<p>'+plantinfo +'</p>'+ picinfo
          
