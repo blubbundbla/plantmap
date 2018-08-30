@@ -142,7 +142,7 @@ var markerCluster = new MarkerClusterer(map, markers, mcOptions, {imagePath: 'ht
   <!-- mit key für plantmap-->
  <script async defer
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUtGESjuDKUpyhlmag9CbYupSnbVYqWz8 	
-&callback=initMap">
+&callback=initMap"type="text/javascript">
   </script>
   
  </div>
